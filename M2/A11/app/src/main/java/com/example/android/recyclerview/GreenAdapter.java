@@ -40,7 +40,7 @@ public class GreenAdapter extends RecyclerView.Adapter<GreenAdapter.NumberViewHo
     GreenAdapter(int numberOfItems) {
         this.mNumberItems=numberOfItems;
     }
-    
+
     @Override
     public NumberViewHolder onCreateViewHolder(ViewGroup parent, int viewtype){
         Context context = parent.getContext();
